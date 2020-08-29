@@ -36,6 +36,9 @@ public class BancoMain {
 			menu();
 			num = sc.nextInt();
 			sc.useLocale(Locale.US);
+			if(num == 0) {
+				break;
+			}
 			switch (num) {
 			case 1:
 
